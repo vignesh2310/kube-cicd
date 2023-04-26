@@ -7,8 +7,8 @@ pipeline {
     }
 */
     environment {
-        registry = "imranvisualpath/vproappdock"
-        registryCredential = 'dockerhub'
+        registry = "vignesh22310/kubeapp"
+        registryCredential = 'dockerlogin'
     }
 
     stages{
